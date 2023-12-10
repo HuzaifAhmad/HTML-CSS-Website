@@ -1,0 +1,59 @@
+#container {
+    color: white;
+    width: 90%px;
+    height: 500px;
+    background-color: orange;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../images/image1.jpg");
+    overflow: auto;
+}
+#container2 {
+    width: 80%;
+    height: 400px;
+    background-image: linear-gradient(to right bottom,#ad5389,#3c1053);
+    margin-top: 10px;
+    margin-left: 20px;
+}
+#container3 {
+    width: 80%;
+    height: 400px;
+    background-image: radial-gradient(circle at center,#ad5389,#3c1053);
+    margin-top: 20px;
+    overflow: auto;
+}
+#sub-container {
+    margin: 30px 40px;
+}
+#h4 {
+    margin-left: auto;
+    margin-right: auto;
+}
+#sub-p {
+    width: 400px;
+    color: white;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+#first-p {
+    padding: 20px;
+    border-width: 3px;
+    border-color: orange;
+    border-style: dotted;
+    text-align: justify;
+}
+#last-p {
+    padding: 10px;
+    border: 2px violet solid;
+}
+button {
+    background-color: #3c1053;
+    color: white;
+    border: 1px orange solid;
+    margin-bottom: 400px;
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 25px;
+}
